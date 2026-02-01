@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const choices = ["Rock", "Paper", "Scissors"];
 let count = 0;
 const rock = document.getElementById("Rock");
@@ -35,4 +36,4 @@ function play(usrChoice){
 rock.addEventListener("click",()=> play("Rock"));
 paper.addEventListener("click",()=> play("Paper"));
 scissors.addEventListener("click",()=> play("Scissors"));
-
+});
